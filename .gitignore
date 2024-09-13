@@ -1,0 +1,78 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+env/
+venv/
+ENV/
+VENV/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+*.pkl
+db.sqlite3
+media/
+staticfiles/
+
+# If you're using PostgreSQL, ignore the PostgreSQL dump files:
+*.pgdump
+
+# If you're using the MySQL database:
+*.sql
+
+# If you're using the SQLite database:
+*.sqlite3
+
+# Ignore .env file for storing sensitive credentials
+.env
+
+# Ignore JetBrains IDE files (like PyCharm)
+.idea/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore node_modules (if using Node.js for frontend assets)
+node_modules/
+
+# Ignore Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+
+# Ignore pip files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Ignore static files
+/static/
+
+# Ignore local migrations
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*__pycache__/
+*/migrations/*.log
